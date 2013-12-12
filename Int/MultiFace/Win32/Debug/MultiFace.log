@@ -1,23 +1,17 @@
-﻿Build started 11/18/2013 2:17:24 PM.
+﻿Build started 12/12/2013 1:48:41 PM.
      1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\MultiFace\MultiFace.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\".
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          Creating "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SingleFace\eggavatar.cpp ..\SingleFace\KinectSensor.cpp ..\SingleFace\Visualize.cpp FTHelper2.cpp MultiFace.cpp
-         MultiFace.cpp
-         FTHelper2.cpp
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\SingleFace\Visualize.cpp
          Visualize.cpp
-         KinectSensor.cpp
-         eggavatar.cpp
-         Generating Code...
+     1>c:\program files\microsoft sdks\kinect\developer toolkit v1.8.0\samples\c++\facetrackingvisualization\singleface\visualize.cpp(131): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\swprintf.inl(85) : see declaration of 'swprintf'
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res" MultiFace.rc 
+         All outputs are up-to-date.
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace_manifest.rc" 
+         All outputs are up-to-date.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.lib" /MACHINE:X86 "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res"
          "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res"
@@ -29,16 +23,9 @@
          "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\stdafx.obj"
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest" /manifest "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest"
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace_manifest.rc" 
+         All outputs are up-to-date.
        LinkEmbedManifest:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.lib" /MACHINE:X86 "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.res"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.exe.embed.manifest.res"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\eggavatar.obj"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\KinectSensor.obj"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\Visualize.obj"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\FTHelper2.obj"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\MultiFace.obj"
-         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\MultiFace\Win32\Debug\stdafx.obj"
+         All outputs are up-to-date.
          MultiFace.vcxproj -> C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\MultiFace.exe
        PostBuildEvent:
          xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackLib.dll" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\MultiFace\Win32\Debug\" /eiycq
@@ -53,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.97
+Time Elapsed 00:00:00.62

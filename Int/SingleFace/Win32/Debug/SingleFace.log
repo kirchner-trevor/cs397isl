@@ -1,7 +1,7 @@
-﻿Build started 11/18/2013 2:15:02 PM.
-     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\".
+﻿Build started 12/12/2013 1:48:34 PM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.lastbuildstate".
        InitializeBuildStatus:
          Creating "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -9,6 +9,8 @@
          stdafx.cpp
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eggavatar.cpp SingleFace.cpp FTHelper.cpp KinectSensor.cpp Visualize.cpp
          Visualize.cpp
+     1>c:\program files\microsoft sdks\kinect\developer toolkit v1.8.0\samples\c++\facetrackingvisualization\singleface\visualize.cpp(131): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\swprintf.inl(85) : see declaration of 'swprintf'
          KinectSensor.cpp
          FTHelper.cpp
          SingleFace.cpp
@@ -28,6 +30,7 @@
          "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\stdafx.obj"
          "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\Visualize.obj"
        Manifest:
+         Deleting file "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest".
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest" /manifest "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.intermediate.manifest"
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest.res" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace_manifest.rc" 
        LinkEmbedManifest:
@@ -50,8 +53,8 @@
        FinalizeBuildStatus:
          Deleting file "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.unsuccessfulbuild".
          Touching "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.lastbuildstate".
-     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.02
+Time Elapsed 00:00:01.86

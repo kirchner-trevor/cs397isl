@@ -124,6 +124,13 @@ HRESULT VisualizeFaceModel(IFTImage* pColorImg, IFTModel* pModel, FT_CAMERA_CONF
         {
             FLOAT scale, rotationXYZ[3], translationXYZ[3];
             hr = pAAMRlt->Get3DPose(&scale, rotationXYZ, translationXYZ);
+
+			wchar_t str[256];
+			swprintf(str, L"Position: x:%.2f, y:%.2f, z:%.2f, pitch:%.2f, yaw:%.2f, roll:%.2f\n", 
+				translationXYZ[0], translationXYZ[1], translationXYZ[2],
+				rotationXYZ[0], rotationXYZ[1], rotationXYZ[2]);
+			OutputDebugStringW(str);
+
             if (SUCCEEDED(hr))
             {
                 hr = pModel->GetProjectedShape(pCameraConfig, zoomFactor, viewOffset, pSUCoef, pModel->GetSUCount(), pAUs, auCount, 
