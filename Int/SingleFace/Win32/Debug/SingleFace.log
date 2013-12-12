@@ -1,0 +1,57 @@
+﻿Build started 11/18/2013 2:15:02 PM.
+     1>Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\".
+       InitializeBuildStatus:
+         Creating "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.pch" /Fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\\" /Fd"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt eggavatar.cpp SingleFace.cpp FTHelper.cpp KinectSensor.cpp Visualize.cpp
+         Visualize.cpp
+         KinectSensor.cpp
+         FTHelper.cpp
+         SingleFace.cpp
+         eggavatar.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.res" SingleFace.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest.res" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.lib" /MACHINE:X86 "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.res"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest.res"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\eggavatar.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\FTHelper.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\KinectSensor.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\stdafx.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\Visualize.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest" /manifest "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest.res" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.exe" /INCREMENTAL /NOLOGO FaceTrackLib.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.lib" /MACHINE:X86 "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.res"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.exe.embed.manifest.res"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\eggavatar.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\FTHelper.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\KinectSensor.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\stdafx.obj"
+         "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\Visualize.obj"
+         SingleFace.vcxproj -> C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\SingleFace.exe
+       PostBuildEvent:
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackLib.dll" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\" /eiycq
+         xcopy "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Redist\x86\FaceTrackData.dll" "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Out\SingleFace\Win32\Debug\" /eiycq
+         
+         :VCEnd
+         1 File(s) copied
+         1 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.unsuccessfulbuild".
+         Touching "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\Int\SingleFace\Win32\Debug\SingleFace.lastbuildstate".
+     1>Done Building Project "C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Samples\C++\FaceTrackingVisualization\SingleFace\SingleFace.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.02
